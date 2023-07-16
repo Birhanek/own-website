@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col items-start justify-center gap-2 p-2 md:flex-row md:justify-between md:items-center'>
+    <div id='contact' className='flex flex-col items-start justify-center gap-2 p-2 md:flex-row md:justify-between md:items-center'>
       <section className='flex items-center justify-start gap-2'>
         <img className='object-cover w-16 h-16 rounded-full' src='images/birhane_kahsay.jpg' alt='Birhane kahsay profile'/>
         <span className='p-1 text-sm italic'>Birhane Kahsay <h2 className='font-bold text-gray-600'>Full stack developer, System Administrator & <br/> Information security Analyst</h2></span>
