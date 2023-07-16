@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Skills from '../components/Skills'
 import Technology from '../components/Technology'
 import Activity from '../components/Activity'
+import Certificate from '../components/Certificate'
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
         <Skills/>
         <Technology/>
         <Activity/>
+        <Certificate/>
     </div>
   )
 }

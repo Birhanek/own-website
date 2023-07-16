@@ -15,14 +15,14 @@ const Activity = () => {
       projectName:"Library Management system",
       projectDescription:`A system that manages users, books and authors`,
       projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
-      projectImage:'images/country-finder.jpg'
+      projectImage:'images/own-web.jpg'
     },
     {
       projectId:3,
       projectName:"Araho",
       projectDescription:`A mobile product selling company`,
       projectLink:'https://int-fs7-frontend-project.vercel.app/',
-      projectImage:'images/own-web.jpg'
+      projectImage:'images/country-finder.jpg '
     },
     {
       projectId:4,
@@ -32,6 +32,7 @@ const Activity = () => {
       projectImage:'images/own-web.jpg'
     },
   ]
+  
   return (
     <section className='flex flex-col items-center justify-center gap-2 p-3 mt-4 mb-4 text-center '>
         <span className='p-2 mt-2 font-serif text-slate-700'>
@@ -46,7 +47,7 @@ const Activity = () => {
                   <div className='absolute bottom-1/3 left-10'>
                     <h1 className='text-xl font-semibold text-green-500 uppercase'>{project.projectName}</h1>
                     <p className='mb-2 font-mono bg-white text-slate-800'>{project.projectDescription.substring(0,80)}...</p>
-                    <a className='w-1/2 px-6 py-1 mt-2 text-xl text-white bg-blue-800 rounded-full hover:transition hover:translate-x-4' href={project.projectLink}>View Project</a>
+                    <a className='w-1/2 px-6 py-1 mt-2 text-xl text-white bg-blue-800 rounded-full hover:bg-black hover:transition hover:translate-x-4' href={project.projectLink}>View Project</a>
                   </div>
               </article>
             })
