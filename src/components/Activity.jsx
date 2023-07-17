@@ -47,7 +47,7 @@ const Activity = () => {
                   <div className='absolute bottom-1/3 left-10'>
                     <h1 className='text-xl font-semibold text-green-500 uppercase'>{project.projectName}</h1>
                     <p className='mb-2 font-mono bg-white text-slate-800'>{project.projectDescription.substring(0,80)}...</p>
-                    <a className='w-1/2 px-6 py-1 mt-2 text-xl text-white bg-blue-800 rounded-full hover:bg-black hover:transition hover:translate-x-4' href={project.projectLink}>View Project</a>
+                    <a className='w-1/2 px-6 py-1 mt-2 text-xl text-white bg-black rounded-full hover:bg-blue-700 hover:transition hover:translate-x-4' href={project.projectLink}>View Project</a>
                   </div>
               </article>
             })
