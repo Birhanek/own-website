@@ -4,19 +4,28 @@ const Certificate = () => {
     const certificates =[
         {
             id:1,
-            certificateIssuer:'Coursera',
-            certificateLink:'pdf/coursera.pdf'
+            certificateIssuer:'Coursera.org',
+            certificateLink:'pdf/coursera.pdf',
+            certificateImage:'pdf/GoogleIT.jpg'
         },
         {
             id:2,
-            certificateIssuer:'Udemy',
-            certificateLink:'pdf/udemy.pdf'
+            certificateIssuer:'Udemy.com',
+            certificateLink:'pdf/udemy.pdf',
+            certificateImage:'pdf/udemy.jpg'
         },
         {
             id:3,
             certificateIssuer:'integrify software academy',
-            certificateLink:'pdf/integrify.pdf'
+            certificateLink:'pdf/integrify.pdf',
+            certificateImage:'pdf/integrify.jpg'
         },
+        {
+          id:4,
+          certificateIssuer:'Blue Road Academy',
+          certificateLink:'pdf/salesforceAssociate.pdf',
+          certificateImage:'pdf/salesforce.jpg'
+      },
     ]
   return (
     <section className='flex flex-col items-center justify-center gap-2 p-3 mt-4 mb-4 text-center '>
@@ -29,8 +38,8 @@ const Certificate = () => {
             certificates.map((certificate)=>{
               return <article key={certificate.id} className='relative w-full border rounded-md border-green-950'>
                   <a href={certificate.certificateLink} className='flex flex-col items-center justify-center w-full hover:cursor-pointer'>
-                    <iframe src={certificate.certificateLink} title={certificate.certificateIssuer}/> 
-                    <i className='w-1/2 p-2 mb-2 text-white rounded-full bg-slate-950 hover:transition hover:translate-x-4 hover:bg-blue-800'>View</i>
+                    <img src={certificate.certificateImage} alt={certificate.certificateIssuer}/> 
+                    <i className='w-1/2 p-2 mt-2 mb-2 text-white rounded-full bg-slate-950 hover:transition hover:translate-x-4 hover:bg-blue-800'>View</i>
                  </a>
               </article>
             })

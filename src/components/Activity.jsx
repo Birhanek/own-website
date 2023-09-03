@@ -13,21 +13,24 @@ const Activity = () => {
     {
       projectId:2,
       projectName:"Library Management system",
-      projectDescription:`A system that manages users, books and authors`,
+      projectDescription:`help libraries keep track of their documents inventory and loans, 
+      and member subscriptions and profiles, sometimes for multiple physical locations`,
       projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
       projectImage:'images/own-web.jpg'
     },
     {
       projectId:3,
       projectName:"Araho",
-      projectDescription:`A mobile product selling company`,
+      projectDescription:`purchases goods in large quantities from manufacturers, directly or through a wholesaler, 
+      and then sells in smaller quantities to consumers for a profit`,
       projectLink:'https://int-fs7-frontend-project.vercel.app/',
       projectImage:'images/country-finder.jpg '
     },
     {
       projectId:4,
       projectName:"Birhane.kahsay",
-      projectDescription:`A private blog site`,
+      projectDescription:`A private blog site that shows what Birhane do, what skills he has, 
+      what certificates does he have and where and what he wants to work`,
       projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
       projectImage:'images/own-web.jpg'
     },
@@ -44,10 +47,10 @@ const Activity = () => {
             projects.map((project)=>{
               return <article key={project.projectId} className='relative w-full border rounded-md border-green-950'>
                   <img src={project.projectImage} alt={project.projectName} className='object-cover w-full h-56 rounded-md cursor-pointer hover:transition hover:ease-in-out hover:border hover:border-l-gray-300'/>
-                  <div className='absolute bottom-1/3 left-10'>
+                  <div className='absolute -top-0 bg-slate-600'>
                     <h1 className='text-xl font-semibold text-green-500 uppercase'>{project.projectName}</h1>
                     <p className='mb-2 font-mono bg-white text-slate-800'>{project.projectDescription.substring(0,80)}...</p>
-                    <a className='w-1/2 px-6 py-1 mt-2 text-xl text-white bg-black rounded-full hover:bg-blue-700 hover:transition hover:translate-x-4' href={project.projectLink}>View Project</a>
+                    <a className='w-1/2 px-6 py-1 mt-4 text-xl text-white rounded-full bg-slate-900 hover:bg-blue-700 hover:transition hover:translate-x-4' href={project.projectLink}>View Project</a>
                   </div>
               </article>
             })
