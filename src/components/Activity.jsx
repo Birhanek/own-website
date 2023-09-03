@@ -12,7 +12,7 @@ const Activity = () => {
     },
     {
       projectId:2,
-      projectName:"Library Management system",
+      projectName:"LMS",
       projectDescription:`help libraries keep track of their documents inventory and loans, 
       and member subscriptions and profiles, sometimes for multiple physical locations`,
       projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
