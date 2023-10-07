@@ -37,26 +37,26 @@ export  const projects =[
     },
     {
       projectId:2,
-      projectName:"LMS",
-      projectDescription:`help libraries keep track of their documents inventory and loans, 
-      and member subscriptions and profiles, sometimes for multiple physical locations`,
-      projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
-      projectImage:'images/own-web.jpg'
-    },
-    {
-      projectId:3,
-      projectName:"Araho",
-      projectDescription:`purchases goods in large quantities from manufacturers, directly or through a wholesaler, 
-      and then sells in smaller quantities to consumers for a profit`,
-      projectLink:'https://int-fs7-frontend-project.vercel.app/',
-      projectImage:'images/country-finder.jpg '
-    },
-    {
-      projectId:4,
       projectName:"Birhane.kahsay",
       projectDescription:`A private blog site that shows what Birhane do, what skills he has, 
       what certificates does he have and where and what he wants to work`,
       projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
       projectImage:'images/own-web.jpg'
     },
+    {
+      projectId:3,
+      projectName:"Delivery Calculator",
+      projectDescription:`A delivery calculator application that calculates the fee of delivery based on number of quantity, 
+      delivery distance, delivery time and delivery total cost of the purchased one`,
+      projectLink:'https://delivery-delivery-fee-2.vercel.app/',
+      projectImage:'images/calculator.jpg '
+    },
+    {
+      projectId:4,
+      projectName:"LMS",
+      projectDescription:`help libraries keep track of their documents inventory and loans, 
+      and member subscriptions and profiles, sometimes for multiple physical locations`,
+      projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
+      projectImage:'images/own-web.jpg'
+    }
   ]
