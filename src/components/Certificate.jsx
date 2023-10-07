@@ -1,32 +1,7 @@
 import React from 'react'
-
+import { certificates } from '../data/data'
 const Certificate = () => {
-    const certificates =[
-        {
-            id:1,
-            certificateIssuer:'Coursera.org',
-            certificateLink:'pdf/coursera.pdf',
-            certificateImage:'pdf/GoogleIT.jpg'
-        },
-        {
-            id:2,
-            certificateIssuer:'Udemy.com',
-            certificateLink:'pdf/udemy.pdf',
-            certificateImage:'pdf/udemy.jpg'
-        },
-        {
-            id:3,
-            certificateIssuer:'integrify software academy',
-            certificateLink:'pdf/integrify.pdf',
-            certificateImage:'pdf/integrify.jpg'
-        },
-        {
-          id:4,
-          certificateIssuer:'Blue Road Academy',
-          certificateLink:'pdf/salesforceAssociate.pdf',
-          certificateImage:'pdf/salesforce.jpg'
-      },
-    ]
+    
   return (
     <section className='flex flex-col items-center justify-center gap-2 p-3 mt-4 mb-4 text-center '>
         <span className='p-2 mt-2 font-serif text-slate-700'>

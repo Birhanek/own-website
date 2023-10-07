@@ -1,41 +1,7 @@
 import React from 'react'
-
+import { projects } from '../data/data'
 const Activity = () => {
-  const projects =[
-    {
-      projectId:1,
-      projectName:"Country finder",
-      projectDescription:`A list of country with information related population, 
-      area, country code searching, adding to favorite, deleting from favorite`,
-      projectLink:'https://int-fs7-frontend-project.vercel.app/',
-      projectImage:'images/country-finder.jpg'
-    },
-    {
-      projectId:2,
-      projectName:"LMS",
-      projectDescription:`help libraries keep track of their documents inventory and loans, 
-      and member subscriptions and profiles, sometimes for multiple physical locations`,
-      projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
-      projectImage:'images/own-web.jpg'
-    },
-    {
-      projectId:3,
-      projectName:"Araho",
-      projectDescription:`purchases goods in large quantities from manufacturers, directly or through a wholesaler, 
-      and then sells in smaller quantities to consumers for a profit`,
-      projectLink:'https://int-fs7-frontend-project.vercel.app/',
-      projectImage:'images/country-finder.jpg '
-    },
-    {
-      projectId:4,
-      projectName:"Birhane.kahsay",
-      projectDescription:`A private blog site that shows what Birhane do, what skills he has, 
-      what certificates does he have and where and what he wants to work`,
-      projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
-      projectImage:'images/own-web.jpg'
-    },
-  ]
-  
+ 
   return (
     <section className='flex flex-col items-center justify-center gap-2 p-3 mt-4 mb-4 text-center '>
         <span className='p-2 mt-2 font-serif text-slate-700'>
