@@ -32,7 +32,7 @@ export  const projects =[
       projectName:"Country finder",
       projectDescription:`A list of country with information related population, 
       area, country code searching, adding to favorite, deleting from favorite`,
-      projectLink:'https://int-fs7-frontend-project.vercel.app/',
+      projectLink:'https://country-detail-finder.netlify.app/',
       projectImage:'images/country-finder.jpg'
     },
     {
@@ -53,10 +53,10 @@ export  const projects =[
     },
     {
       projectId:4,
-      projectName:"LMS",
-      projectDescription:`help libraries keep track of their documents inventory and loans, 
-      and member subscriptions and profiles, sometimes for multiple physical locations`,
-      projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
-      projectImage:'images/own-web.jpg'
+      projectName:"Blog",
+      projectDescription:`BirhanNews is an online journal where an individual, group, or corporation presents a record of activities, thoughts, or beliefs
+      political, economical,social and IT thoughts `,
+      projectLink:`https://birhanenews.netlify.app/`,
+      projectImage:'images/blog.jpg'
     }
   ]
