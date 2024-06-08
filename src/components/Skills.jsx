@@ -8,14 +8,31 @@ const Skills = () => {
         <h3>Full stack developer, Salesforce Administrator & <br/> Information security Analyst</h3>
         <a href='#work' className='w-1/2 h-8 text-center rounded-full bg-gradient-to-r from-indigo-800 via-purple-500 to-purple-800 focus:outline-none hover:bg-green-700 hover:text-white'>Let us work together</a>
        </article>
-       <p className='w-full font-normal md:w-1/2'>
-       <p>A professional full stack developer with more than 6 months working experience in building eye
-catching, user friendly,responsive web applications and 1+ year working experience as an information
-security analyst. My experience in web development gives me an opportunity to learn Redux toolkit, SEO
-and TypeScript.</p>
-<p className='mt-2'>I am passionate about working with cross-functional teams , detail oriented and
+       <p className='w-full font-italic md:w-1/2'>
+       <p>Passionate and enthusiastic IT
+professional with a knack for
+problem-solving and analytical
+thinking. Detail-oriented and fast
+learner, adept at grasping complex
+concepts swiftly. Sociable and a
+natural communicator, excels in
+collaborating with diverse teams to
+achieve shared goals. Thrives in
+environments that foster
+collaboration and teamwork,
+leveraging strong interpersonal skills
+to build rapport with colleagues and
+clients alike. Enjoys the challenge of
+tackling intricate IT issues and finds
+fulfillment in delivering effective
+solutions. Eager to contribute
+expertise and enthusiasm to dynamic
+projects that involve working closely
+with people.
+.</p>
+<p className='mt-2'>I am passionate, motivated and eager about working with cross-functional teams , detail oriented and
 delivering best solutions to maximize customer satisfaction.Currently working on web applications
-development using ReactJs, Redux toolkit, TypeScript, React-router, Axios, Material UI and tailwind css.</p>
+development using Python, ReactJs, Redux toolkit, TypeScript, React-router, Axios, Material UI and tailwind css.</p>
        </p>
 
     </section>

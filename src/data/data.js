@@ -33,7 +33,7 @@ export  const projects =[
       projectDescription:`A list of country with information related population, 
       area, country code searching, adding to favorite, deleting from favorite`,
       projectLink:'https://country-detail-finder.netlify.app/',
-      projectImage:'images/country-finder.jpg'
+      //projectImage:'images/country-finder.jpg'
     },
     {
       projectId:2,
@@ -41,7 +41,7 @@ export  const projects =[
       projectDescription:`A private blog site that shows what Birhane do, what skills he has, 
       what certificates does he have and where and what he wants to work`,
       projectLink:`https://birhane-kahsay-own-website.vercel.app/`,
-      projectImage:'images/own-web.jpg'
+      //projectImage:'images/own-web.jpg'
     },
     {
       projectId:3,
@@ -49,14 +49,13 @@ export  const projects =[
       projectDescription:`A delivery calculator application that calculates the fee of delivery based on number of quantity, 
       delivery distance, delivery time and delivery total cost of the purchased one`,
       projectLink:'https://delivery-delivery-fee-2.vercel.app/',
-      projectImage:'images/calculator.jpg '
+      //projectImage:'images/calculator.jpg '
     },
     {
       projectId:4,
-      projectName:"Blog",
-      projectDescription:`BirhanNews is an online journal where an individual, group, or corporation presents a record of activities, thoughts, or beliefs
-      political, economical,social and IT thoughts `,
-      projectLink:`https://birhanenews.netlify.app/`,
-      projectImage:'images/blog.jpg'
+      projectName:"PDF splitter and online Note",
+      projectDescription:`This is an online application for PDF splitting and to write notes and save them online`,
+      projectLink:`https://birhane.pythonanywhere.com/`,
+      //projectImage:'images/blog.jpg'
     }
   ]
