@@ -7,7 +7,7 @@ const Footer = () => {
     <div id='contact' className='flex flex-col items-start justify-center gap-2 p-2 mb-1 border border-solid border-slate-300 md:flex-row md:justify-between md:items-center'>
       <section className='flex items-center justify-start gap-2'>
         <img className='object-cover w-16 h-16 rounded-full' src='images/birhane_kahsay.jpg' alt='Birhane kahsay profile'/>
-        <span className='p-1 text-sm italic'>Birhane Kahsay <h2 className='font-bold text-gray-600'>Full stack developer, System Administrator & <br/> Information security Analyst</h2></span>
+        <span className='p-1 text-sm italic'>Birhane Kahsay <h2 className='font-bold text-gray-600'>Software developer & <br/> Information security Analyst</h2></span>
       </section>
       <section>
           <p>Designed and Developed by me &copy;{new Date().getFullYear()} <br/> Made with <a className='italic text-blue-600' href='https://react.dev/learn'>ReactJs</a> & <a className='italic text-blue-600' href='https://tailwindcss.com/'>Tailwind css</a></p>

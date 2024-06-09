@@ -13,7 +13,7 @@ const Activity = () => {
           {
             projects.map((project)=>{
               return <article key={project.projectId} className='relative w-full border rounded-md border-green-950'>
-                  <img src={project.projectImage} alt={project.projectName} className='object-cover w-full h-56 rounded-md cursor-pointer hover:transition hover:ease-in-out hover:border hover:border-l-gray-300'/>
+                  <iframe title={project.projectName} src={project.projectLink} className=''></iframe>
                   <div className='absolute -top-0 bg-slate-600'>
                     <h1 className='text-xl font-semibold text-green-500 uppercase'>{project.projectName}</h1>
                     <p className='mb-2 font-mono bg-white text-slate-800'>{project.projectDescription.substring(0,80)}...</p>

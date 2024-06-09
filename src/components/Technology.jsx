@@ -11,12 +11,14 @@ const Technology = () => {
             <p className="font-serif text-slate-700"><strong>Dynamic - </strong>Websites don't have to be static, I love making pages come to life.</p>
             <p className="font-serif text-slate-700"><strong>Intuitive - </strong>Strong preference for easy to use, intuitive UX/UI.</p>
         </article>
+        
         <article className='flex flex-col items-start justify-center w-full md:w-1/2'>
             <h2 className='text-xl font-bold text-slate-700'>Here are a list of tools, libraries and platforms I have had precious experience on.</h2>
-            <section className='flex items-start justify-between gap-6 p-4'>
+            <section className='flex items-start justify-between gap-6 p-4 w-full'>
                 <div className='float-left w-1/2'>
                     <h2 className='text-xl italic font-bold text-slate-700'>Framework</h2>
-                    <ol className="list-disc text-slate-700" type="i">
+                    <ol className=" text-slate-700 list-disc" type="1">
+                        <li>Python</li>
                         <li>ReactJs</li>
                         <li>TypeScript</li>
                         <li>Tailwind css</li>
@@ -27,6 +29,7 @@ const Technology = () => {
                 <div className='float-right w-1/2'>
                     <h2 className='text-xl italic font-bold text-slate-700'>Tools</h2>
                     <ul className="list-disc text-slate-700">
+                        <li>Flask</li>
                         <li>Redux Toolkit</li>
                         <li>MongoDB</li>
                         <li>MySQL</li>
