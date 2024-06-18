@@ -57,5 +57,11 @@ export  const projects =[
       projectDescription:`This is an online application for PDF splitting and to write notes and save them online`,
       projectLink:`https://birhane.pythonanywhere.com/`,
       //projectImage:'images/blog.jpg'
+    },
+    {
+      projectId:5,
+      projectName:"Online blog",
+      projectDescription:`This is an online blog that you can post articles on different areas of science.`,
+      projectLink:`https://birhanek.pythonanywhere.com/news/`,
     }
   ]
